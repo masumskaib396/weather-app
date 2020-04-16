@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="weather-wraper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div id="logo">
+                        <img src="assets/imsges/icon.png" id="wather-img" alt="logo">
+                    </div>
+                    <div class="location-information">
+                        <div id="location-name">
+                           <span><h2 id="city">Dhaka</h2> <h2 id="country">bd</h2></span>
+                           <span><h2 id="main">Cloud </h2>:   <h2 id="discription"> Scattered  </h2> </span>
+                        </div>
+
+                        <div id="location-info">
+                            TEMP: <h2 id="temp">32</h2>
+                            PRESSURE: <h2 id="pressure">1032</h2>
+                            HUMIDITY: <h2 id="humidity">75</h2>
+                        </div>
+                        <input type="text" id="city-input" placeholder="Enter Your City Name" class="form-control">
+                        <span class="sum-info">After Entering a Valid City Name Please Enter to Get Result</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+</body>
+</html>
